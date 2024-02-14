@@ -83,7 +83,7 @@ body{
     font-family: "Roboto Mono", monospace;
 }
 
-.input-notes img{
+.delete-notes{
     height: 1rem;
     position: relative;
     right: 40px;
