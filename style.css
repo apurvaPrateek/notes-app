@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+    word-spacing: 1.2;
+}
+
+body{
+    background-image: linear-gradient(rgb(155, 88, 99), pink);
+    font-family: "Roboto Mono", monospace;
+    min-height: 100vh;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.head{
+    display: flex;
+    color: white;
+    gap: 10px;
+}
+
+.notes-img{
+    height: 3rem;
+}
+
+.create-notes{
+    display: flex;
+    color: white;
+    gap: 10px;
+    background-color: rgb(79, 79, 244);
+    align-self: flex-start;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.create-notes-img{
+    height: 2rem;
+}
+
+.notes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 50px;
+    column-gap: 50px;
+    
+}
+
+.input-notes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-notes textarea{
+    
+    
+    width: 300px;
+    min-height: 150px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.input-notes input{
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgb(55, 2, 17);
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    padding-left: 10px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.input-notes img{
+    height: 1rem;
+    position: relative;
+    right: 40px;
+    bottom: 5px;
+}
